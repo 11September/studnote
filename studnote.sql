@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 15 2019 г., 00:54
+-- Время создания: Апр 15 2019 г., 01:06
 -- Версия сервера: 5.7.19
 -- Версия PHP: 7.1.7
 
@@ -389,11 +389,11 @@ INSERT INTO `settings` (`id`, `key`, `display_name`, `value`, `details`, `type`,
 (2, 'site.description', 'Site Description', 'Пример', '', 'text', 2, 'Site'),
 (3, 'site.logo', 'Site Logo', '', '', 'image', 3, 'Site'),
 (4, 'site.google_analytics_tracking_id', 'Google Analytics Tracking ID', NULL, '', 'text', 4, 'Site'),
-(5, 'admin.bg_image', 'Admin Background Image', '', '', 'image', 5, 'Admin'),
-(6, 'admin.title', 'Admin Title', 'Voyager', '', 'text', 1, 'Admin'),
-(7, 'admin.description', 'Admin Description', 'Welcome to Voyager. The Missing Admin for Laravel', '', 'text', 2, 'Admin'),
-(8, 'admin.loader', 'Admin Loader', '', '', 'image', 3, 'Admin'),
-(9, 'admin.icon_image', 'Admin Icon Image', '', '', 'image', 4, 'Admin'),
+(5, 'admin.bg_image', 'Admin Background Image', 'settings\\April2019\\prnCMFWLqTMl7yM2WGm6.png', '', 'image', 5, 'Admin'),
+(6, 'admin.title', 'Admin Title', 'Административная панель', '', 'text', 1, 'Admin'),
+(7, 'admin.description', 'Admin Description', 'Добро пожаловать в административную панель', '', 'text', 2, 'Admin'),
+(8, 'admin.loader', 'Admin Loader', 'settings\\April2019\\PrAis1qLXhr09Dll2Hlk.png', '', 'image', 3, 'Admin'),
+(9, 'admin.icon_image', 'Admin Icon Image', 'settings\\April2019\\8r2LKcs0JO6LFuGrrD9c.png', '', 'image', 4, 'Admin'),
 (10, 'admin.google_analytics_client_id', 'Google Analytics Client ID (used for admin dashboard)', NULL, '', 'text', 1, 'Admin'),
 (11, 'site.contacts', 'Контакты', '<ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgba(0, 0, 0, 0.6); font-family: \'Work Sans\', Arial, sans-serif; font-size: 16px;\">\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">40024, м.Суми, вул. Прокоф`єва, 38</li>\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">(0542) 63-55-86</li>\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">(0542) 36-51-59</li>\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">email:&nbsp;<a style=\"box-sizing: border-box; color: #2f89fc; text-decoration-line: none; background-color: transparent; transition: all 0.3s ease 0s;\" href=\"http://localhost:8000/#\">shtc-pto@ukr.net</a></li>\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">fax: 63-55-86</li>\r\n</ul>', NULL, 'rich_text_box', 7, 'Site'),
 (12, 'site.addresses', 'Как добраться', '<ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgba(0, 0, 0, 0.6); font-family: \'Work Sans\', Arial, sans-serif; font-size: 16px;\">\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">маршрутними таксі № 2, 9, 17а, 21, 51, 52, 53</li>\r\n<li style=\"box-sizing: border-box; line-height: 1.4;\">тролейбус №15, 15а</li>\r\n</ul>', NULL, 'rich_text_box', 8, 'Site'),
