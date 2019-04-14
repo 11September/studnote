@@ -11,7 +11,7 @@ return [
     */
 
     'user' => [
-        'add_default_role_on_register' => true,
+        'add_default_role_on_register' => false,
         'default_role'                 => 'user',
         // Set `namespace` to `null` to use `config('auth.providers.users.model')` value
         // Set `namespace` to a class to override auth user model.
@@ -109,13 +109,13 @@ return [
         /*
          * Select default language
          */
-        'default' => 'en',
+        'default' => 'ru',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
-            'en',
+            'ru',
             //'pt',
         ],
     ],

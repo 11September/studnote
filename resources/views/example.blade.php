@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-9 ftco-animate">
                     <div class="content-element">
-                        <h2>ТУТ КОНТЕНТ</h2>
+                        <h2>ТУТ Пока Демо</h2>
                         <table cellspacing="0">
                             <tr>
                                 <td>№</td>
