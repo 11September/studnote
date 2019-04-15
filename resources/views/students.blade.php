@@ -16,34 +16,19 @@
                 <div class="col-lg-3 content-list ftco-animate">
 
                     <ul>
-                        <li><a data-toggle="collapse" href="#collapse1">Все предметы</a></li>
+                        <li><a data-toggle="collapse" href="#collapse1">Все ученики</a></li>
                     </ul>
 
                     <div id="collapse1" class="panel-collapse collapse">
                         <ul class="">
-                            <li><a href="#">Предмет1</a></li>
-                            <li><a href="#">Предмет2</a></li>
-                            <li><a href="#">Предмет3</a></li>
-                            <li><a href="#">Предмет4</a></li>
-                            <li><a href="#">Предмет5</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
+                            <li><a href="#">Ученик Петя</a></li>
                         </ul>
                     </div>
-
-
-                    {{--<ul>--}}
-                        {{--<li><a href="#">Предмет1</a></li>--}}
-                        {{--<li><a href="#">Предмет2</a></li>--}}
-                        {{--<li><a href="#">Предмет3</a></li>--}}
-                        {{--<li><a href="#">Предмет4</a></li>--}}
-                        {{--<li><a href="#">Предмет5</a></li>--}}
-                        {{--<li><a href="#">Предмет6</a></li>--}}
-                        {{--<li><a href="#">Предмет7</a></li>--}}
-                        {{--<li><a href="#">Предмет8</a></li>--}}
-                        {{--<li><a href="#">Предмет9</a></li>--}}
-                        {{--<li><a href="#">Предмет10</a></li>--}}
-                        {{--<li><a href="#">Предмет11</a></li>--}}
-                        {{--<li><a href="#">Предмет12</a></li>--}}
-                    {{--</ul>--}}
                 </div>
                 <div class="col-lg-9 ftco-animate">
                     <div class="content-element">

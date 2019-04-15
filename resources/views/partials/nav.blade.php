@@ -1,4 +1,4 @@
-<nav class="py-4 menu-block">
+<nav class="py-3 menu-block">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -7,7 +7,36 @@
                 </a>
             </div>
             <div class="col-sm-6">
-                <div class="social-block">
+
+
+                <div class="social-block ftco-animate">
+
+                    <div class="account-block ">
+                        @guest
+                            <a href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a href="{{ route('register') }}">{{ __('Register') }}</a>
+
+                            @else
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                   id="dropdownMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">{{ Auth::user()->name }}  {{ Auth::user()->role_id }}</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                          style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                                @endguest
+                    </div>
+
+
                     <ul class="ftco-footer-social list-unstyled mt-3 topper social-item">
 
                         @if(setting('site.facebook'))
@@ -35,30 +64,6 @@
                         @endif
 
                     </ul>
-                </div>
-                <div class="account-block ftco-animate">
-
-                    @guest
-                        <a href="#">Войти</a>
-                        <a href="#">Регистрация</a>
-
-                        @else
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                               data-toggle="dropdown" aria-haspopup="true"
-                               aria-expanded="false">{{ Auth::user()->name }}  {{ Auth::user()->role_id }}</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                   onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                    {{ __('Выйти') }}
-                                </a>
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                      style="display: none;">
-                                    @csrf
-                                </form>
-                            </div>
-                            @endguest
                 </div>
             </div>
         </div>

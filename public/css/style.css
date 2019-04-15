@@ -9806,7 +9806,7 @@ body {
   line-height: 1.2;
 }
 .account-block{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .py-4{
   position: relative;
@@ -9817,9 +9817,16 @@ body {
   z-index: 1;
 }
 
+.menu .navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .entrance-block{
   background: rgba(255, 255, 255, 0.2)!important;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 .entrance-block .bg-light {
@@ -9827,18 +9834,18 @@ body {
   border-radius: 5px;
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 30px 40px!important;
+  padding: 45px 80px!important;
 }
 .entrance-block form{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .foot-block{
   background: transparent;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .indent{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .foot-block img{
   width: auto;
@@ -9869,10 +9876,21 @@ body {
   line-height: 1.4;
 }
 
+.navbar-nav .nav-item.active > a.nav-link{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.navbar-nav .nav-item.active > a.nav-link:hover{
+  color: #2f89fc;
+}
 
 .content-block{
   background: rgba(255, 255, 255, 0.2)!important;
-  margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -9906,7 +9924,7 @@ body {
   align-items: center;
 }
 .content-element{
-  overflow-x: scroll;
+  /*overflow-x: scroll;*/
 }
 .content-element table{
   width: 100%;

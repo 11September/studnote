@@ -19,6 +19,26 @@ class WelcomeController extends Controller
     {
         return view('example');
     }
+
+    public function groups()
+    {
+        return view('groups');
+    }
+
+    public function students()
+    {
+        return view('students');
+    }
+
+    public function subjects()
+    {
+        return view('subjects');
+    }
+
+    public function marks()
+    {
+        return view('marks');
+    }
     
     public function feedback(Request $request)
     {

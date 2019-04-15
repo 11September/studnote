@@ -24,6 +24,11 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::middleware(['auth', 'canAdmin'])->group(function () {
 
+    Route::get('/groups', 'WelcomeController@groups')->name('groups');
+    Route::get('/students', 'WelcomeController@students')->name('students');
+    Route::get('/subjects', 'WelcomeController@subjects')->name('subjects');
+    Route::get('/marks', 'WelcomeController@marks')->name('subjects');
+
     Route::group(['as' => 'team.'], function () {
         Route::resource('teams', 'TeamsController')->except([
             'show'
