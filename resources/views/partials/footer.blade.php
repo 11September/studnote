@@ -4,13 +4,15 @@
             <div class="row">
                 <div class="col-lg-4 ftco-animate indent">
                     <div class="p-4 p-md-5 order-md-last bg-light">
-                        <form action="#">
+                        <form method="post" action="{{ action('WelcomeController@feedback') }}">
+                            {{ csrf_field() }}
+
                             <h2>Оставить заявку</h2>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="7" class="form-control"
+                                <textarea name="text" id="" cols="30" rows="7" class="form-control"
                                           placeholder="Сообщение"></textarea>
                             </div>
                             <div class="form-group">

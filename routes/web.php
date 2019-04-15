@@ -11,23 +11,15 @@
 |
 */
 
+Route::get('/', 'WelcomeController@welcome')->name('welcome');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/feedback', 'WelcomeController@feedback')->name('feedback');
+Route::get('/example', 'WelcomeController@example')->name('example');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
-});
-
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/example', function () {
-    return view('example');
 });
 
 Route::middleware(['auth', 'canAdmin'])->group(function () {
