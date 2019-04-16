@@ -3,7 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Feedback;
+use App\Group;
 use App\Mail\SendEmail;
+use App\Subject;
+use App\User;
+use App\UserGroup;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
@@ -22,17 +26,34 @@ class WelcomeController extends Controller
 
     public function groups()
     {
-        return view('groups');
+        $groups = Group::all();
+
+        return view('groups', compact('groups'));
     }
 
-    public function students()
+    public function groups_show(Group $group)
     {
-        return view('students');
+        $users = User::whereHas('groups', function ($query) use ($group) {
+            $query->where('group_id', $group->id);
+        })->get();
+
+        $groups = Group::all();
+
+        return view('groups-group', compact('group', 'groups', 'users'));
     }
 
     public function subjects()
     {
-        return view('subjects');
+        $subjects = Subject::all();
+
+        return view('subjects', compact('subjects'));
+    }
+
+    public function subjects_show(Subject $subject)
+    {
+        $subjects = Subject::all();
+
+        return view('subjects-subject', compact('subject', 'subjects'));
     }
 
     public function marks()

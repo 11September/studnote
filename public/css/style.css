@@ -9894,6 +9894,7 @@ body {
   margin-bottom: 20px;
   padding-top: 60px;
   padding-bottom: 60px;
+  min-height: 400px;
 }
 .content-list ul{
   list-style: none;
@@ -9938,7 +9939,9 @@ body {
   margin: 0 auto;
 }
 
-
+.red{
+  background-color: red;
+}
 
 @media (min-width: 0) and (max-width: 574px) {
 

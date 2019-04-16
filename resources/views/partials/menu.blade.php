@@ -10,12 +10,12 @@
                     <ul class="navbar-nav mr-auto">
 
                         @if(Auth::user() && Auth::user()->role_id == 3)
-                            <li class="nav-item {{ request()->is('groups') ? 'active' : '' }}"><a
-                                        href="{{ url('/groups') }}" class="nav-link">Группы</a></li>
-                            <li class="nav-item {{ request()->is('students') ? 'active' : '' }}"><a
-                                        href="{{ url('/students') }}" class="nav-link">Студенты</a></li>
-                            <li class="nav-item {{ request()->is('subjects') ? 'active' : '' }}"><a
-                                        href="{{ url('/subjects') }}" class="nav-link">Предметы</a></li>
+                            <li class="nav-item {{ request()->is('groups*') ? 'active' : '' }}"><a
+                                        href="{{ url('/groups') }}" class="nav-link">Группы</a>
+                            </li>
+                            <li class="nav-item {{ request()->is('subjects*') ? 'active' : '' }}"><a
+                                        href="{{ url('/subjects') }}" class="nav-link">Предметы</a>
+                            </li>
                         @endif
 
                         @if(Auth::user() && Auth::user()->role_id == 2)

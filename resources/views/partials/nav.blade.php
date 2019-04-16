@@ -13,8 +13,8 @@
 
                     <div class="account-block ">
                         @guest
-                            <a href="{{ route('login') }}">{{ __('Login') }}</a>
-                            <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                            {{--<a href="{{ route('login') }}">{{ __('Войти') }}</a>--}}
+                            {{--<a href="{{ route('register') }}">{{ __('Регистрация') }}</a>--}}
 
                             @else
                                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
