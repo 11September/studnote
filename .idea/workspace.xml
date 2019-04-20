@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89362a8f-00f2-4926-a844-fa0e734cb449" name="Default Changelist" comment="Template markup some querry">
+    <list default="true" id="89362a8f-00f2-4926-a844-fa0e734cb449" name="Default Changelist" comment="New files">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,87 +37,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studnote (1).sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="studnote (1).sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studnote (1).sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1555452022371" expanded="true" signature="294:358" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="360:426" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="428:492" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="494:523" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="661:1361" ph="CREATE TABLE... data_rows" />
-                <marker date="1555452022371" expanded="true" signature="1406:6741" ph="INSERT INTO `data_rows`... " />
-                <marker date="1555452022371" expanded="true" signature="6846:7822" ph="CREATE TABLE... data_types" />
-                <marker date="1555452022371" expanded="true" signature="7868:9845" ph="INSERT INTO `data_types`... " />
-                <marker date="1555452022371" expanded="true" signature="9946:10216" ph="CREATE TABLE... groups" />
-                <marker date="1555452022371" expanded="true" signature="10258:10389" ph="INSERT INTO `groups`... " />
-                <marker date="1555452022371" expanded="true" signature="10498:10781" ph="CREATE TABLE... group_subjects" />
-                <marker date="1555452022371" expanded="true" signature="10831:10983" ph="INSERT INTO `group_subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="11083:11352" ph="CREATE TABLE... menus" />
-                <marker date="1555452022371" expanded="true" signature="11393:11521" ph="INSERT INTO `menus`... " />
-                <marker date="1555452022371" expanded="true" signature="11626:12388" ph="CREATE TABLE... menu_items" />
-                <marker date="1555452022371" expanded="true" signature="12434:14711" ph="INSERT INTO `menu_items`... " />
-                <marker date="1555452022371" expanded="true" signature="14816:15035" ph="CREATE TABLE... migrations" />
-                <marker date="1555452022371" expanded="true" signature="15081:16387" ph="INSERT INTO `migrations`... " />
-                <marker date="1555452022371" expanded="true" signature="16497:16759" ph="CREATE TABLE... password_resets" />
-                <marker date="1555452022371" expanded="true" signature="16865:17211" ph="CREATE TABLE... permissions" />
-                <marker date="1555452022371" expanded="true" signature="17258:21029" ph="INSERT INTO `permissions`... " />
-                <marker date="1555452022371" expanded="true" signature="21139:21327" ph="CREATE TABLE... permission_role" />
-                <marker date="1555452022371" expanded="true" signature="21378:22152" ph="INSERT INTO `permission_role`... " />
-                <marker date="1555452022371" expanded="true" signature="22252:22591" ph="CREATE TABLE... roles" />
-                <marker date="1555452022371" expanded="true" signature="22632:23013" ph="INSERT INTO `roles`... " />
-                <marker date="1555452022371" expanded="true" signature="23116:23617" ph="CREATE TABLE... settings" />
-                <marker date="1555452022371" expanded="true" signature="23661:26829" ph="INSERT INTO `settings`... " />
-                <marker date="1555452022371" expanded="true" signature="26932:27283" ph="CREATE TABLE... subjects" />
-                <marker date="1555452022371" expanded="true" signature="27327:33709" ph="INSERT INTO `subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="33816:34320" ph="CREATE TABLE... translations" />
-                <marker date="1555452022371" expanded="true" signature="34420:35108" ph="CREATE TABLE... users" />
-                <marker date="1555452022371" expanded="true" signature="35149:36089" ph="INSERT INTO `users`... " />
-                <marker date="1555452022371" expanded="true" signature="36195:36472" ph="CREATE TABLE... user_groups" />
-                <marker date="1555452022371" expanded="true" signature="36519:36665" ph="INSERT INTO `user_groups`... " />
-                <marker date="1555452022371" expanded="true" signature="36770:36944" ph="CREATE TABLE... user_roles" />
-                <marker date="1555452022371" expanded="true" signature="37021:37130" ph="ALTER TABLE `data_rows`... " />
-                <marker date="1555452022371" expanded="true" signature="37171:37324" ph="ALTER TABLE `data_types`... " />
-                <marker date="1555452022371" expanded="true" signature="37361:37406" ph="ALTER TABLE `groups`... " />
-                <marker date="1555452022371" expanded="true" signature="37451:37504" ph="ALTER TABLE `group_subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="37540:37631" ph="ALTER TABLE `menus`... " />
-                <marker date="1555452022371" expanded="true" signature="37672:37773" ph="ALTER TABLE `menu_items`... " />
-                <marker date="1555452022371" expanded="true" signature="37814:37863" ph="ALTER TABLE `migrations`... " />
-                <marker date="1555452022371" expanded="true" signature="37909:37988" ph="ALTER TABLE `password_resets`... " />
-                <marker date="1555452022371" expanded="true" signature="38030:38123" ph="ALTER TABLE `permissions`... " />
-                <marker date="1555452022371" expanded="true" signature="38169:38366" ph="ALTER TABLE `permission_role`... " />
-                <marker date="1555452022371" expanded="true" signature="38402:38493" ph="ALTER TABLE `roles`... " />
-                <marker date="1555452022371" expanded="true" signature="38532:38627" ph="ALTER TABLE `settings`... " />
-                <marker date="1555452022371" expanded="true" signature="38666:38713" ph="ALTER TABLE `subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="38756:38941" ph="ALTER TABLE `translations`... " />
-                <marker date="1555452022371" expanded="true" signature="38977:39117" ph="ALTER TABLE `users`... " />
-                <marker date="1555452022371" expanded="true" signature="39159:39209" ph="ALTER TABLE `user_groups`... " />
-                <marker date="1555452022371" expanded="true" signature="39250:39414" ph="ALTER TABLE `user_roles`... " />
-                <marker date="1555452022371" expanded="true" signature="39513:39610" ph="ALTER TABLE `data_rows`... " />
-                <marker date="1555452022371" expanded="true" signature="39661:39759" ph="ALTER TABLE `data_types`... " />
-                <marker date="1555452022371" expanded="true" signature="39806:39899" ph="ALTER TABLE `groups`... " />
-                <marker date="1555452022371" expanded="true" signature="39954:40055" ph="ALTER TABLE `group_subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="40101:40193" ph="ALTER TABLE `menus`... " />
-                <marker date="1555452022371" expanded="true" signature="40244:40342" ph="ALTER TABLE `menu_items`... " />
-                <marker date="1555452022371" expanded="true" signature="40393:40491" ph="ALTER TABLE `migrations`... " />
-                <marker date="1555452022371" expanded="true" signature="40543:40645" ph="ALTER TABLE `permissions`... " />
-                <marker date="1555452022371" expanded="true" signature="40691:40786" ph="ALTER TABLE `roles`... " />
-                <marker date="1555452022371" expanded="true" signature="40835:40931" ph="ALTER TABLE `settings`... " />
-                <marker date="1555452022371" expanded="true" signature="40980:41075" ph="ALTER TABLE `subjects`... " />
-                <marker date="1555452022371" expanded="true" signature="41128:41209" ph="ALTER TABLE `translations`... " />
-                <marker date="1555452022371" expanded="true" signature="41255:41347" ph="ALTER TABLE `users`... " />
-                <marker date="1555452022371" expanded="true" signature="41399:41497" ph="ALTER TABLE `user_groups`... " />
-                <marker date="1555452022371" expanded="true" signature="41611:41780" ph="ALTER TABLE `data_rows`... " />
-                <marker date="1555452022371" expanded="true" signature="41840:41978" ph="ALTER TABLE `menu_items`... " />
-                <marker date="1555452022371" expanded="true" signature="42043:42314" ph="ALTER TABLE `permission_role`... " />
-                <marker date="1555452022371" expanded="true" signature="42384:42494" ph="ALTER TABLE `users`... " />
-                <marker date="1555452022371" expanded="true" signature="42554:42792" ph="ALTER TABLE `user_roles`... " />
-                <marker date="1555452022371" expanded="true" signature="42818:42880" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="42882:42946" ph="/*!40101 SET... " />
-                <marker date="1555452022371" expanded="true" signature="42948:43010" ph="/*!40101 SET... " />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studnote (2).sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studnote (2).sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -460,7 +395,7 @@
       <workItem from="1555272240616" duration="7975000" />
       <workItem from="1555357074344" duration="5191000" />
       <workItem from="1555445545280" duration="5036000" />
-      <workItem from="1555748373773" duration="711000" />
+      <workItem from="1555748373773" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="Voyager -&gt; show tips&#10;New Sql dump">
       <created>1555279620951</created>
@@ -483,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555452151093</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New files">
+      <created>1555750181258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555750181258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23726000" />
+    <option name="totallyTimeSpent" value="23787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -523,20 +465,14 @@
     <MESSAGE value="Voyager -&gt; show tips&#10;New Sql dump" />
     <MESSAGE value="Template markup" />
     <MESSAGE value="Template markup some querry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template markup some querry" />
+    <MESSAGE value="New files" />
+    <option name="LAST_COMMIT_MESSAGE" value="New files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -796,6 +732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,6 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="25" column="92" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,82 +829,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1555452022371" expanded="true" signature="294:358" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="360:426" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="428:492" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="494:523" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="661:1361" ph="CREATE TABLE... data_rows" />
-            <marker date="1555452022371" expanded="true" signature="1406:6741" ph="INSERT INTO `data_rows`... " />
-            <marker date="1555452022371" expanded="true" signature="6846:7822" ph="CREATE TABLE... data_types" />
-            <marker date="1555452022371" expanded="true" signature="7868:9845" ph="INSERT INTO `data_types`... " />
-            <marker date="1555452022371" expanded="true" signature="9946:10216" ph="CREATE TABLE... groups" />
-            <marker date="1555452022371" expanded="true" signature="10258:10389" ph="INSERT INTO `groups`... " />
-            <marker date="1555452022371" expanded="true" signature="10498:10781" ph="CREATE TABLE... group_subjects" />
-            <marker date="1555452022371" expanded="true" signature="10831:10983" ph="INSERT INTO `group_subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="11083:11352" ph="CREATE TABLE... menus" />
-            <marker date="1555452022371" expanded="true" signature="11393:11521" ph="INSERT INTO `menus`... " />
-            <marker date="1555452022371" expanded="true" signature="11626:12388" ph="CREATE TABLE... menu_items" />
-            <marker date="1555452022371" expanded="true" signature="12434:14711" ph="INSERT INTO `menu_items`... " />
-            <marker date="1555452022371" expanded="true" signature="14816:15035" ph="CREATE TABLE... migrations" />
-            <marker date="1555452022371" expanded="true" signature="15081:16387" ph="INSERT INTO `migrations`... " />
-            <marker date="1555452022371" expanded="true" signature="16497:16759" ph="CREATE TABLE... password_resets" />
-            <marker date="1555452022371" expanded="true" signature="16865:17211" ph="CREATE TABLE... permissions" />
-            <marker date="1555452022371" expanded="true" signature="17258:21029" ph="INSERT INTO `permissions`... " />
-            <marker date="1555452022371" expanded="true" signature="21139:21327" ph="CREATE TABLE... permission_role" />
-            <marker date="1555452022371" expanded="true" signature="21378:22152" ph="INSERT INTO `permission_role`... " />
-            <marker date="1555452022371" expanded="true" signature="22252:22591" ph="CREATE TABLE... roles" />
-            <marker date="1555452022371" expanded="true" signature="22632:23013" ph="INSERT INTO `roles`... " />
-            <marker date="1555452022371" expanded="true" signature="23116:23617" ph="CREATE TABLE... settings" />
-            <marker date="1555452022371" expanded="true" signature="23661:26829" ph="INSERT INTO `settings`... " />
-            <marker date="1555452022371" expanded="true" signature="26932:27283" ph="CREATE TABLE... subjects" />
-            <marker date="1555452022371" expanded="true" signature="27327:33709" ph="INSERT INTO `subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="33816:34320" ph="CREATE TABLE... translations" />
-            <marker date="1555452022371" expanded="true" signature="34420:35108" ph="CREATE TABLE... users" />
-            <marker date="1555452022371" expanded="true" signature="35149:36089" ph="INSERT INTO `users`... " />
-            <marker date="1555452022371" expanded="true" signature="36195:36472" ph="CREATE TABLE... user_groups" />
-            <marker date="1555452022371" expanded="true" signature="36519:36665" ph="INSERT INTO `user_groups`... " />
-            <marker date="1555452022371" expanded="true" signature="36770:36944" ph="CREATE TABLE... user_roles" />
-            <marker date="1555452022371" expanded="true" signature="37021:37130" ph="ALTER TABLE `data_rows`... " />
-            <marker date="1555452022371" expanded="true" signature="37171:37324" ph="ALTER TABLE `data_types`... " />
-            <marker date="1555452022371" expanded="true" signature="37361:37406" ph="ALTER TABLE `groups`... " />
-            <marker date="1555452022371" expanded="true" signature="37451:37504" ph="ALTER TABLE `group_subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="37540:37631" ph="ALTER TABLE `menus`... " />
-            <marker date="1555452022371" expanded="true" signature="37672:37773" ph="ALTER TABLE `menu_items`... " />
-            <marker date="1555452022371" expanded="true" signature="37814:37863" ph="ALTER TABLE `migrations`... " />
-            <marker date="1555452022371" expanded="true" signature="37909:37988" ph="ALTER TABLE `password_resets`... " />
-            <marker date="1555452022371" expanded="true" signature="38030:38123" ph="ALTER TABLE `permissions`... " />
-            <marker date="1555452022371" expanded="true" signature="38169:38366" ph="ALTER TABLE `permission_role`... " />
-            <marker date="1555452022371" expanded="true" signature="38402:38493" ph="ALTER TABLE `roles`... " />
-            <marker date="1555452022371" expanded="true" signature="38532:38627" ph="ALTER TABLE `settings`... " />
-            <marker date="1555452022371" expanded="true" signature="38666:38713" ph="ALTER TABLE `subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="38756:38941" ph="ALTER TABLE `translations`... " />
-            <marker date="1555452022371" expanded="true" signature="38977:39117" ph="ALTER TABLE `users`... " />
-            <marker date="1555452022371" expanded="true" signature="39159:39209" ph="ALTER TABLE `user_groups`... " />
-            <marker date="1555452022371" expanded="true" signature="39250:39414" ph="ALTER TABLE `user_roles`... " />
-            <marker date="1555452022371" expanded="true" signature="39513:39610" ph="ALTER TABLE `data_rows`... " />
-            <marker date="1555452022371" expanded="true" signature="39661:39759" ph="ALTER TABLE `data_types`... " />
-            <marker date="1555452022371" expanded="true" signature="39806:39899" ph="ALTER TABLE `groups`... " />
-            <marker date="1555452022371" expanded="true" signature="39954:40055" ph="ALTER TABLE `group_subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="40101:40193" ph="ALTER TABLE `menus`... " />
-            <marker date="1555452022371" expanded="true" signature="40244:40342" ph="ALTER TABLE `menu_items`... " />
-            <marker date="1555452022371" expanded="true" signature="40393:40491" ph="ALTER TABLE `migrations`... " />
-            <marker date="1555452022371" expanded="true" signature="40543:40645" ph="ALTER TABLE `permissions`... " />
-            <marker date="1555452022371" expanded="true" signature="40691:40786" ph="ALTER TABLE `roles`... " />
-            <marker date="1555452022371" expanded="true" signature="40835:40931" ph="ALTER TABLE `settings`... " />
-            <marker date="1555452022371" expanded="true" signature="40980:41075" ph="ALTER TABLE `subjects`... " />
-            <marker date="1555452022371" expanded="true" signature="41128:41209" ph="ALTER TABLE `translations`... " />
-            <marker date="1555452022371" expanded="true" signature="41255:41347" ph="ALTER TABLE `users`... " />
-            <marker date="1555452022371" expanded="true" signature="41399:41497" ph="ALTER TABLE `user_groups`... " />
-            <marker date="1555452022371" expanded="true" signature="41611:41780" ph="ALTER TABLE `data_rows`... " />
-            <marker date="1555452022371" expanded="true" signature="41840:41978" ph="ALTER TABLE `menu_items`... " />
-            <marker date="1555452022371" expanded="true" signature="42043:42314" ph="ALTER TABLE `permission_role`... " />
-            <marker date="1555452022371" expanded="true" signature="42384:42494" ph="ALTER TABLE `users`... " />
-            <marker date="1555452022371" expanded="true" signature="42554:42792" ph="ALTER TABLE `user_roles`... " />
-            <marker date="1555452022371" expanded="true" signature="42818:42880" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="42882:42946" ph="/*!40101 SET... " />
-            <marker date="1555452022371" expanded="true" signature="42948:43010" ph="/*!40101 SET... " />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studnote (2).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
